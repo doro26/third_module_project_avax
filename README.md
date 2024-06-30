@@ -50,7 +50,7 @@ The `myMintToken` contract provides a straightforward implementation of an ERC20
      // Check balance
      const balance = await token.balanceOfAddress("0xAddress");
      console.log("Balance:", ethers.utils.formatUnits(balance, 18));
-     ```
+     
 
 
 ## License
